@@ -1,7 +1,8 @@
-325_MaxSubArrayLen.py
-
-
-
+#!/usr/bin/env python
+#@Time    :2019/7/26 14:14 AM
+#@Author  :yelf
+#@Filename:325_MaxSubArrayLen.py
+#@package :leetcode
 给定数组nums和目标值k，找到总和为k的子数组的最大长度。 如果没有，则返回0。
 注意：整个nums数组的总和保证适合32位有符号整数范围。
 例1：
