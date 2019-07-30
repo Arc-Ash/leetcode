@@ -18,8 +18,5 @@
 #大佬的方法：
 class Solution:
     def wiggleSort(self, nums):
-        nums.sort()
+        nums.sort(reverse=True)
         nums[::2],nums[1::2] = nums[len(nums)//2:],nums[:len(nums)//2]
-        return nums
-s = Solution()
-print(s.wiggleSort([1, 5, 1, 1, 6, 4]))
